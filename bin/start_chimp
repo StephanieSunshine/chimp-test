@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Make sure you are running this from the root folder for the project"
+
+cd src/tests/cucumber
+../../../node_modules/chimp/bin/chimp --watch --ddp=http://localhost:3000 --browser=phantomjs
+cd ../../..

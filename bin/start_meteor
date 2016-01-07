@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Make sure you are running this from the root folder for the project"
+
+cd src
+meteor
+cd ..
